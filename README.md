@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) application
 
+## Install
+
+First, install dependences?
+
+```bash
+npm install
+# or
+yarn install
+```
+
 ## Getting Started
 
 First, run the development server:
