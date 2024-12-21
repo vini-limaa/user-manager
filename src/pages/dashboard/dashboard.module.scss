@@ -1,0 +1,87 @@
+.dashboard {
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--button-primary-text);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.userTable {
+  box-shadow: 0 4px 6px var(--form-shadow);
+  border-radius: 8px;
+  overflow: hidden;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      background-color: var(--primary-color);
+      color: var(--button-primary-text);
+
+      th {
+        text-align: left;
+        padding: 1rem;
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: var(--form-background);
+        }
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        td {
+          padding: 1rem;
+          color: var(--text-primary);
+
+          &.actions {
+            display: flex;
+            gap: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  .MuiPaginationItem-root {
+    color: var(--text-primary);
+
+    &.Mui-selected {
+      background-color: var(--primary-color);
+      color: var(--button-primary-text);
+
+      &:hover {
+        background-color: var(--button-hover-bg);
+      }
+    }
+  }
+}

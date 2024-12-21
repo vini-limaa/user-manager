@@ -1,0 +1,25 @@
+:root {
+  --background-color: #f0f4f8;
+  --primary-color: #457b9d;
+  --secondary-color: #1d3557;
+  --text-primary: #1d3557;
+  --text-secondary: #457b9d;
+  --form-background: #fff;
+  --form-shadow: rgba(0, 0, 0, 0.1);
+  --button-primary-bg: #457b9d;
+  --button-primary-text: #fff;
+  --button-hover-bg: #1d3557;
+}
+
+[data-theme="dark"] {
+  --background-color: #1d1f21;
+  --primary-color: #6c757d;
+  --secondary-color: #343a40;
+  --text-primary: #f8f9fa;
+  --text-secondary: #adb5bd;
+  --form-background: #2c3034;
+  --form-shadow: rgba(0, 0, 0, 0.5);
+  --button-primary-bg: #6c757d;
+  --button-primary-text: #f8f9fa;
+  --button-hover-bg: #495057;
+}

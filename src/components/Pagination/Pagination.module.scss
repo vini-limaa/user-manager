@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  .MuiPaginationItem-root {
+    color: var(--text-primary);
+
+    &.Mui-selected {
+      background-color: var(--primary-color);
+      color: var(--button-primary-text);
+
+      &:hover {
+        background-color: var(--button-hover-bg);
+      }
+    }
+  }
+}
